@@ -21,6 +21,7 @@ tape("should respond b64", (t) => {
     if (err) t.error(err);
 
     t.equal(body.b64, "aGVsbG8=");
+    t.end();
   });
 });
 
